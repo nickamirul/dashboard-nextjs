@@ -82,7 +82,7 @@ const options: ApexOptions = {
         return value + "%";
       },
       style: {
-        colors: "#ffffff", 
+        colors: "#ffffff",
       },
     },
   },

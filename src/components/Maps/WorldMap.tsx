@@ -69,8 +69,10 @@ const WorldMap: React.FC = () => {
   }, []);
 
   return (
-    <div className="md:w-140 md:h-95 w-140 flex h-100 flex-col rounded-lg border border-stroke bg-graybackground px-7.5 py-6 shadow-default shadow-md dark:border-strokedark dark:bg-boxdark xl:col-span-7">
-      <div className="flex items-start justify-between">
+    // <div className="md:w-140 md:h-95 w-140 flex h-100 flex-col rounded-lg border border-stroke bg-graybackground px-7.5 py-6 shadow-default shadow-md dark:border-strokedark dark:bg-boxdark xl:col-span-7">
+    //   <div className="flex items-start justify-between">
+    <div className="col-span-12 rounded-lg border border-stroke bg-white p-7.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4">
+      <div className="mb-4 items-start justify-between gap-4 sm:flex">
         <div>
           <div>
             <h4 className="text-xl font-bold text-black">Top Engagement</h4>
@@ -80,7 +82,7 @@ const WorldMap: React.FC = () => {
 
       <div className="h-65 oveflow-auto">
         <div id="mapOne" className="mapOne"></div>
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center mt-1">
           <div className="mr-4 flex items-center">
             <div className="mr-1 h-3 w-3 rounded-full bg-blue-800"></div>
             <p className="text-s mr-1 font-bold text-black">Canada</p>

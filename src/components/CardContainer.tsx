@@ -112,8 +112,7 @@ const CardContainer: React.FC<CardDataStatsProps> = ({ children }) => {
                       <div
                         className={`flex h-10 w-10 items-center justify-center rounded-md bg-${product.color} dark:bg-meta-4`}
                         dangerouslySetInnerHTML={{ __html: product.svg }}
-                      >
-                      </div>{" "}
+                      ></div>{" "}
                     </td>
                     <div className="ml-2">
                       <p className="text-sm font-bold text-black dark:text-white">
@@ -132,7 +131,9 @@ const CardContainer: React.FC<CardDataStatsProps> = ({ children }) => {
                     <p
                       className="text-meta-11 text-xs dark:text-white"
                       style={{
-                        marginLeft: `-${product.sale.toString().length * 0.33}rem`,
+                        marginLeft: `-${
+                          product.sale.toString().length * 0.33
+                        }rem`,
                       }}
                     >
                       ${product.sale} sale
