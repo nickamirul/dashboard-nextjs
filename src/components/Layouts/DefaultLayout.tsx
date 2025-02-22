@@ -16,9 +16,7 @@ export default function DefaultLayout({
         <Sidebars sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
         <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
-          <div className="ml-6 mr-6">
           <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-          </div>
 
           <main>
             <div className="mx-auto max-w-screen-2xl p-2 md:p-4 2xl:p-6">
