@@ -2,7 +2,7 @@
 
 Can use this below link to see the production in vercel:
 
-### [ Demo](https://dashboard-nextjs-ashen.vercel.app/)
+### [ Demo](https://dashboard-nextjs.amirulismail.com/)
 
 ## Installation
 Here are the steps you need to follow to install the dependencies.
