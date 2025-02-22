@@ -76,11 +76,11 @@ const Dashboard: React.FC = () => {
         </CardDataStats>
       </div>
 
-      <div className="mt-4 grid grid-cols-1 gap-4 md:mt-4 md:gap-4 2xl:mt-6 2xl:gap-6">       
-        <div className="w-full md:col-span-1 xl:col-span-6">
+      <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 md:mt-4 md:gap-4 2xl:mt-6 2xl:gap-6">       
+        <div className="w-full">
           <LineChart />
         </div>
-        <div className="w-full md:col-span-1 xl:col-span-6">
+        <div className="w-full">
           <CardContainer>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,10 +98,10 @@ const Dashboard: React.FC = () => {
             </svg>
           </CardContainer>
         </div>
-        <div className="w-full md:col-span-1 xl:col-span-6">
+        <div className="w-full">
           <CardTransactions />
         </div>
-        <div className="w-full md:col-span-1 xl:col-span-6">
+        <div className="w-full md:col-span-3">
           <WorldMap />
         </div>
       </div>
